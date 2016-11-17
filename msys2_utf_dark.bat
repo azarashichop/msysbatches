@@ -1,6 +1,6 @@
 @echo off
 
-cd C:\Users\003028\myenv
+cd C:\Users\%USERNAME%\myenv
 del .minttyrc
 
 copy .minttyrclin_dark .minttyrc
